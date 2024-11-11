@@ -6,6 +6,7 @@ import 'package:sansar/constants/url_constants.dart';
 
 getNewsCard(e){
  return Stack(
+  //This is changed.
    children: [Padding(
      padding: const EdgeInsets.all(5.0),
      child: Container(
