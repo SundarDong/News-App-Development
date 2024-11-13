@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sansar/homepage_screen.dart';
+import 'package:sansar/splash_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'US Top HeadLines'),
+      home: new SplashScreen(),
       debugShowCheckedModeBanner: false,
     );
   }
